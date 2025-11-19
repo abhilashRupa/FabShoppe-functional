@@ -12,7 +12,7 @@
 	<artifactId>FabShoppe-functional</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>FabShoppe-functional</name>
-	<description>ecercise project for spring reactive application with Asynchronous Nonblocking using functional endpoint</description>
+	<description>exercise project for spring reactive application with Asynchronous Nonblocking using functional endpoint</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -44,6 +44,11 @@
 			<groupId>io.projectreactor</groupId>
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
